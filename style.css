@@ -7,19 +7,22 @@ margin: auto;
 display: block;
 height: 15%;
 width: 15%;
+border: solid black;
 border-radius: 50%
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 .pname{
   text-align: center;
   font-size: 24px;
+  line-height: 110%;
 }
 p.myinfo{
-  margin: 0 60px 30px 60px
+  margin: 0 60px 30px 60px;
+  line-height: 110%;
 }
 p.start{
   margin:0 60px 30px 60px;
@@ -27,4 +30,5 @@ p.start{
 }
 div.profile{
   margin: 0 60px 0 60px;
+  line-height: 110%;
 }
